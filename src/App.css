@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.section {
+  margin-left: 70%;
+  font-size: 20px;
+}
+
+#skills-section {
+  padding-top: 100px; /* Adjust based on the height of the navbar */
+  position: relative;
+  z-index: 1; /* Ensure it's lower than the navbar */
+}
+
+.navbar {
+  /* background-color: rgb(94, 149, 84); */
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.card {
+  box-shadow: 0 0 10px #999999;
+  border: none;
+  z-index: 1;
+  position: relative;
+}
+
+.about {
+  position: absolute;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.ftco-service {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+.subheading {
+  font-weight: bolder;
+  color: #b1b493; 
+  text-transform: uppercase
+}
+
+.icon {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: 10%;
+  width: 70px;
+  margin-top: -8%;
+  background-color: #b1b493;
+}
+
+.heading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.description {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15%;
+  color: #999999;
+  width: 80%;
+}
+
+.card-services {
+  width: 85%;
+}
+
+.ftco-hireme {
+  padding-top: 100px; /* Adjust based on the height of the navbar */
+  position: relative;
+  z-index: 1; /* Ensure it's lower than the navbar */
+  background-color: #b1b493;
+}
+
+.btn-color {
+  background-color: white;
+  color: #b1b493;
+}
+
+.btn-color:hover {
+  background-color: white;
+  color: #b1b493;
+}
+
+.btn-contact {
+  background-color: #b1b493;
+  color: white;
+  font-size: 25px;
+  border-radius: 50px;
+  height: 47%;
+}
+
+.btn-contact:hover {
+  background-color: #b1b493;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
