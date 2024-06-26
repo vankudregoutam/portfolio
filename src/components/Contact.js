@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
 
@@ -58,25 +59,25 @@ const Contact = () => {
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-location-dot"></i></button>
                                     {/* </div> */}
                                     <div className="text">
-                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' href="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</a></p>
+                                        <p><span className='mx-2'>Address:</span><br /><Link className='btn' target='_blank' to="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</Link></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-phone"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Phone:</span><br /><a className='btn' target='_blank' href="tel://7798412022">+91 77984 12022</a></p>
+                                        <p><span className='mx-2'>Phone:</span><br /><Link className='btn' target='_blank' to="tel://7798412022">+91 77984 12022</Link></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-paper-plane"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Email:</span><br /><a className='btn' href="mailto:vankudregoutam15@gmail.com">vankudregoutam15@gmail.com</a></p>
+                                        <p><span className='mx-2'>Email:</span><br /><Link className='btn' to="mailto:vankudregoutam15@gmail.com">vankudregoutam15@gmail.com</Link></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-earth-americas"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Website</span><br /><a className='btn' target='_blank' href="/">yoursite.com</a></p>
+                                        <p><span className='mx-2'>Website</span><br /><Link className='btn' target='_blank' to="/">yoursite.com</Link></p>
                                     </div>
                                 </div>
                             </div>

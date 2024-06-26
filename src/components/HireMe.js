@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HireMe = () => {
     return (
@@ -11,8 +12,8 @@ const HireMe = () => {
                                 <h2 style={{ color: 'white' }}>Have a project on your mind.</h2>
                                 <p style={{ color: 'white' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                     It is a paradisematic country, in which roasted parts of sentences fly.</p>
-                                <button className=" btn btn-color mb-0"><a href="#contact-section" className="btn" style={{ color: '#b1b493' }}>Contact me</a></button>
-                                <button className=" btn btn-color mb-0"><a href="#contact-section" className="btn" style={{ color: '#b1b493' }}>Resume</a></button>
+                                <button className=" btn btn-color mb-0"><Link to="#contact-section" className="btn" style={{ color: '#b1b493' }}>Contact me</Link></button>
+                                <button className=" btn btn-color mb-0"><Link to="#contact-section" className="btn" style={{ color: '#b1b493' }}>Resume</Link></button>
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 d-flex align-items-end">
