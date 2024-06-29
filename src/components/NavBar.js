@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
@@ -14,10 +13,10 @@ const NavBar = () => {
                         <form className="section" role="search">
                             <ul className="navbar-nav nav ml-auto">
                                 {/* <li className="nav-item"><a href="/home-section" className="nav-link"><span>Home</span></a></li> */}
-                                <li className="nav-item"><Link to="#about-section" className="nav-link"><span>About</span></Link></li>
-                                <li className="nav-item"><Link to="#skills-section" className="nav-link"><span>Skills</span></Link></li>
-                                <li className="nav-item"><Link to="#services-section" className="nav-link"><span>Services</span></Link></li>
-                                <li className="nav-item"><Link to="#contact-section" className="nav-link"><span>Contact</span></Link></li>
+                                <li className="nav-item"><a href="#about-section" className="nav-link"><span>About</span></a></li>
+                                <li className="nav-item"><a href="#skills-section" className="nav-link"><span>Skills</span></a></li>
+                                <li className="nav-item"><a href="#services-section" className="nav-link"><span>Services</span></a></li>
+                                <li className="nav-item"><a href="#contact-section" className="nav-link"><span>Contact</span></a></li>
                             </ul>
                         </form>
                     </div>

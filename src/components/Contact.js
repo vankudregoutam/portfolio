@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 const Contact = () => {
 
@@ -24,27 +23,27 @@ const Contact = () => {
                         <div className="col-md-8">
                             <form action="#" className="bg-light p-4 p-md-5 contact-form">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 my-2">
                                         <div className="form-group">
                                             <input type="text" className="form-control" name='name' id='name' value={credentials.name} onChange={handleChange} placeholder="Your Name" />
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 my-2">
                                         <div className="form-group">
                                             <input type="email" className="form-control" name='email' id='email' value={credentials.email} onChange={handleChange} placeholder="Your Email" />
                                         </div>
                                     </div>
-                                    <div className="col-md-12">
+                                    <div className="col-md-12 my-2">
                                         <div className="form-group">
                                             <input type="text" className="form-control" name='subject' id='subject' value={credentials.subject} onChange={handleChange} placeholder="Subject" />
                                         </div>
                                     </div>
-                                    <div className="col-md-12">
+                                    <div className="col-md-12 my-2">
                                         <div className="form-group">
                                             <textarea name="message" id="message" value={credentials.message} cols="30" rows="7" className="form-control" onChange={handleChange} placeholder="Message"></textarea>
                                         </div>
                                     </div>
-                                    <div className="col-md-12">
+                                    <div className="col-md-12 my-2">
                                         <div className="form-group">
                                             <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5" />
                                         </div>
@@ -59,25 +58,25 @@ const Contact = () => {
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-location-dot"></i></button>
                                     {/* </div> */}
                                     <div className="text">
-                                        <p><span className='mx-2'>Address:</span><br /><Link className='btn' target='_blank' to="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</Link></p>
+                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' href="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-phone"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Phone:</span><br /><Link className='btn' target='_blank' to="tel://7798412022">+91 77984 12022</Link></p>
+                                        <p><span className='mx-2'>Phone:</span><br /><a className='btn' target='_blank' href="tel://7798412022">+91 77984 12022</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-paper-plane"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Email:</span><br /><Link className='btn' to="mailto:vankudregoutam15@gmail.com">vankudregoutam15@gmail.com</Link></p>
+                                        <p><span className='mx-2'>Email:</span><br /><a className='btn' href="mailto:vankudregoutam15@gmail.com">vankudregoutam15@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-earth-americas"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Website</span><br /><Link className='btn' target='_blank' to="/">yoursite.com</Link></p>
+                                        <p><span className='mx-2'>Website</span><br /><a className='btn' target='_blank' href="/">yoursite.com</a></p>
                                     </div>
                                 </div>
                             </div>
