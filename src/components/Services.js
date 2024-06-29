@@ -9,7 +9,7 @@ const Services = () => {
                         <div className="col-md-12 heading-section text-center ftco-animate mb-5"><br /><br /><br />
                             <span className="subheading">I am grat at</span>
                             <h2 className="mb-4 mt-4">We do awesome services for our clients</h2>
-                            <p style={{ color: '#999999' }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            {/* <p style={{ color: '#999999' }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> */}
                         </div>
                     </div>
                     <div className="container row" style={{marginLeft: '7%'}}>

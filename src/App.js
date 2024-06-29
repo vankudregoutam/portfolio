@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import HireMe from './components/HireMe';
 import NavBar from './components/NavBar';
 import Services from './components/Services';
@@ -17,6 +18,7 @@ function App() {
         <Services />
         <HireMe />
         <Contact />
+        <Footer />
       </main>
       {/* <Router>
         <Routes>
