@@ -58,13 +58,13 @@ const Contact = () => {
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-location-dot"></i></button>
                                     {/* </div> */}
                                     <div className="text">
-                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' href="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</a></p>
+                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' rel="noreferrer" href="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-phone"></i></button>
                                     <div className="text">
-                                        <p><span className='mx-2'>Phone:</span><br /><a className='btn' target='_blank' href="tel://7798412022">+91 77984 12022</a></p>
+                                        <p><span className='mx-2'>Phone:</span><br /><a className='btn' target='_blank' rel="noreferrer" href="tel://7798412022">+91 77984 12022</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
