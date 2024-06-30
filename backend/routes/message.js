@@ -3,7 +3,7 @@ const router= express.Router()
 const Message = require('../models/Messages')
 
 // Route 1: Adding the Message using: POST '/api/message/addMessage'
-router.post('/api/addMessage', async (req, res) => {
+router.post('/addMessage', async (req, res) => {
     try {
         const { name, email, subject, message } = req.body
         const messages = new Message({
