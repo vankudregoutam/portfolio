@@ -8,7 +8,7 @@ const port = 5000
 
 app.use(cors({
     origin: 'https://goutam-vankudre-portfolio.vercel.app', // Specify the allowed origin
-    methods: ['POST'], // Specify the allowed methods
+    methods: ['POST', "GET"], // Specify the allowed methods
     credentials: true
 }))
 
