@@ -4,18 +4,11 @@ const cors = require('cors')
 connectToMongo()
 
 const app = express()
-const port = 5000
 
 app.use(cors({
-    origin: 'https://goutam-vankudre-portfolio.vercel.app', // Specify the allowed origin
-    methods: ['POST', "GET"], // Specify the allowed methods
-    credentials: true
+    origin: 'https://goutam-vankudre-portfolio.vercel.app'
 }))
 
 app.use(express.json())
 
 app.use('/api/message', require('./routes/message'))
-
-app.listen(port, () => {
-    console.log(`Listening to port ${port}`);
-})
