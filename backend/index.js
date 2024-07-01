@@ -12,3 +12,5 @@ app.use(cors({
 app.use(express.json())
 
 app.use('/api/message', require('./routes/message'))
+
+module.exports = app
