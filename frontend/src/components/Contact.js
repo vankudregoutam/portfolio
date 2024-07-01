@@ -10,7 +10,7 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        const response = await fetch(`${process.env.REACT_APP_BACKENDURI}/addMessage`, {
+        const response = await fetch(`https://portfolio-three-self-28.vercel.app/api/message/addMessage`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
