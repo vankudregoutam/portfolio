@@ -10,7 +10,7 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        const response = await fetch(`${process.env.BACKENDURI}/api/message/addMessage`, {
+        const response = await fetch(`${process.env.REACT_APP_BACKENDURI}/api/message/addMessage`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
