@@ -8,6 +8,8 @@ const Contact = () => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value })
     }
 
+    fetch.defaults.withCredentials = true
+
     const handleSubmit = async (e) => {
         e.preventDefault()
         const response = await fetch(`${process.env.REACT_APP_BACKENDURI}/addMessage`, {
