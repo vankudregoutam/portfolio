@@ -7,7 +7,8 @@ const app = express()
 const port = 5000
 
 app.use(cors({
-    origin: 'https://goutam-vankudre-portfolio.vercel.app/'
+    origin: 'https://goutam-vankudre-portfolio.vercel.app',
+    optionsSuccessStatus: 200
 }))
 
 app.use(express.json())
