@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import HireMe from './components/HireMe';
 import NavBar from './components/NavBar';
+import Projects from './components/Projects';
 import Services from './components/Services';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Skills from './components/Skills';
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <Services />
+        <Projects />
         <HireMe />
         <Contact />
         <Footer />

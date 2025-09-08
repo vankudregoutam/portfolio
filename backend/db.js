@@ -1,6 +1,6 @@
 require('dotenv').config({ path: '.env.local' });
 const mongoose = require('mongoose')
-const mongoURI = process.env.MONGOURL
+const mongoURI = 'mongodb+srv://vankudregoutam15:TdyRJgPiVCeUz271@cluster0.3yp5gis.mongodb.net/Portfolio?retryWrites=true&w=majority&appName=Cluster0'
 // const mongoURI = 'mongodb://localhost:27017'
 // console.log(mongoURI);
 
